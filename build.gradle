@@ -11,7 +11,7 @@ buildscript {
         appCompat = "1.2.0"
         sqliteVersion = "2.1.0"
         lifecycleLiveData = "2.2.0"
-        biometricVersion="1.0.1"
+        biometricVersion="1.1.0"
 
         // Kotlin
         kotlinVersion = "1.4.20"
@@ -46,7 +46,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.1.1'
+        classpath 'com.android.tools.build:gradle:4.1.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
     }
 }
